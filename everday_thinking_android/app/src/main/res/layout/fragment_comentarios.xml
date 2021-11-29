@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_mensagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/mensagem_comentario"
+        style="@style/TextMensagem"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/ll_comentarios"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/ls_itens"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:clickable="false"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:divider="@color/pinkBackgroud"
+            android:dividerHeight="8dp"
+            android:scrollbars="none"
+            android:layout_weight="1"
+            tools:ignore="NestedScrolling" >
+        </ListView>
+
+        <Button
+            android:id="@+id/btn_criar_comentario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_buttom_default"
+            android:layout_margin="15dp"
+            android:onClick="salvar"
+            android:padding="15dp"
+            android:text="@string/criar"
+            android:textAlignment="center"
+            android:visibility="visible"
+            android:theme="@style/ButtonDefault" />
+
+    </LinearLayout>
+
+</FrameLayout>

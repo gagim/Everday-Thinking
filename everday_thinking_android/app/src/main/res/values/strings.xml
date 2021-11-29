@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Everday</string>
+    <string name="app_title">Everday Thinking</string>
+
+    <string name="brinks">Só de Brinks =P</string>
+
+    <string name="nome">Nome</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="repetir_senha">Repetir Senha</string>
+    <string name="acessar">Acessar</string>
+
+    <string name="cadastro_title">Cadastre-se de um jeito rápido e fácil</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="casdastre_se">Cadastre-se Aqui</string>
+
+    <string name="logando">Logando…</string>
+    <string name="carregando">Carregando…</string>
+    <string name="sucesso_cadastro">Sucesso ao cadastrar usuário!</string>
+    <string name="usuario_cadastrado">Usuário já cadastrado!</string>
+
+    <string name="novidades">Novidades</string>
+    <string name="discursao">Discursão</string>
+
+    <string name="criar">Criar comentário</string>
+    <string name="salvar">Salvar</string>
+    <string name="alterar">Alterar</string>
+    <string name="deletar">Deletar</string>
+    <string name="criando">Criando…</string>
+
+    <string name="author">Meu comentário</string>
+
+    <string name="comentario">Digite aqui seu comentário…</string>
+    <string name="mensagem_comentario">Não há nenhum comentário</string>
+
+    <string name="mensagem_noticia">Não há nenhuma noticia</string>
+
+    <string name="comentario_title_criar">Crie um novo comentário</string>
+    <string name="comentario_title_altera_deleta">Altere ou delete o comentário</string>
+
+    <string name="deletar_comentario">Deseja deletar o cometário?</string>
+
+    <string name="sair">Deseja sair do app?</string>
+    <string name="sair_mensagem">Você perderá o login automático.</string>
+
+    <string name="usuario_nao_encontrado">Usuário não encontrado</string>
+    <string name="msg_erro_nome">Nome do usuário inválido!</string>
+    <string name="msg_erro_email">Email do usuário inválido!</string>
+    <string name="msg_erro_senha">Senha do usuário inválida!</string>
+    <string name="senha_incopativeis">Senhas não estão iguais!</string>
+    <string name="msg_erro_comentario">Comentário inválido!</string>
+</resources>

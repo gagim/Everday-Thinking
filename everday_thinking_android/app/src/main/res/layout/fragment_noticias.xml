@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_mensagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/mensagem_noticia"
+        style="@style/TextMensagem"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/ls_itens"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:paddingBottom="16dp"
+        android:divider="@color/pinkBackgroud"
+        android:dividerHeight="8dp"
+        android:scrollbars="none"
+        tools:ignore="NestedScrolling" >
+
+    </ListView>
+
+</FrameLayout>

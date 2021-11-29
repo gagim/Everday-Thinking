@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="blue">#1E90FF</color>
+    <color name="red">#FF0000</color>
+    <color name="grenn">#32CD32</color>
+
+    <color name="pinkToolbar">#F50075</color>
+    <color name="pinkHightToobar">#dc0069</color>
+    <color name="pinkBackgroud">#e3d0d8</color>
+    <color name="pink">#ff439d</color>
+
+</resources>
